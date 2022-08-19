@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import "details.css";
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	margin: 2px 5px 2px 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-x: hidden;
+    resize: horizontal;
+    display: block;
+    height:fit-content;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+
+.button {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: darkblue;
+    color: white;
+    font-size: 1rem;
+}
+
+.requestInfo {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dashed red;
+    background-color: yellow;  
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+
+html { 
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJmR8SrgAN2Vw1Mr08e45QbLlXdbnEztZ_g&usqp=CAU) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.label1{
+    color: purple;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+    font-weight: bold;
+	line-height: 1.5;
+}
+.label2{
+    color: green;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+    font-weight: bold;
+	line-height: 1.5;
+}
+.label3{
+    color: blue;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+    font-weight: bold;
+	line-height: 1.5;
+}
+.label4{
+    color: orangered;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+    font-weight: bold;
+	line-height: 1.5;
+}
+.label5{
+    color: rgb(212, 10, 145);
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+    font-weight: bold;
+	line-height: 1.5;
+}
+.label6{
+    color: red;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 20px;
+    font-weight: bold;
+	line-height: 1.5;
+}
+.header {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
+    color: rgb(129, 3, 3);
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 3.5;
+}
+.title {
+    font-family: "Patua One", serif;
+    letter-spacing: 2px;
+    color: rgb(42, 12, 150);
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 2.5;
+}

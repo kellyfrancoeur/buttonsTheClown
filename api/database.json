@@ -1,0 +1,64 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "parentName": "Abbi Smith",
+      "childName": "Alli Smith",
+      "kidsAttending": "10",
+      "address": "123 Main Street",
+      "dateOfRes": "2022-09-10",
+      "lengthOfRes": "4 hours"
+    },
+    {
+      "parentName": "Ted Lasso",
+      "childName": "Roy Kent",
+      "kidsAttending": "6",
+      "address": "712 Address St",
+      "dateOfRes": "2022-12-01",
+      "lengthOfRes": "3",
+      "id": 3
+    },
+    {
+      "parentName": "Eddie Izzard",
+      "childName": "Missy Elliot",
+      "kidsAttending": "25",
+      "address": "345 People Live Here Lane",
+      "dateOfRes": "2022-08-30",
+      "lengthOfRes": "10",
+      "id": 4
+    }
+  ],
+  "completions": [
+    {
+      "requestId": 1,
+      "clownId": 2,
+      "date_created": 1660923295186,
+      "date_completed": 1660923295186,
+      "id": 1
+    },
+    {
+      "requestId": 4,
+      "clownId": 2,
+      "date_created": 1660925480082,
+      "date_completed": 1660925480082,
+      "id": 2
+    },
+    {
+      "requestId": 3,
+      "clownId": 1,
+      "date_created": 1660925481932,
+      "date_completed": 1660925481932,
+      "id": 3
+    }
+  ]
+}
